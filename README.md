@@ -20,3 +20,9 @@ Les données sont enregistrées dans `localStorage` sur l'appareil et le navigat
 ## Limites
 
 Cette édition ne collecte pas automatiquement la presse, ne synchronise pas les appareils et ne propose pas de serveur central. L'interface et les données déjà enregistrées peuvent être disponibles hors connexion après une première ouverture HTTPS, mais les liens externes vers les sources et OpenStreetMap nécessitent Internet. L'estimation de prix est une moyenne descriptive de comparables documentés, pas une recommandation commerciale.
+
+
+## Nouveau : fiches concurrents détaillées
+Dans « Entreprises », créez d'abord la fiche d'un concurrent. Dans « Fiches concurrents », ajoutez ensuite des données financières, commerciales, industrielles et de gouvernance, avec leur source, date, périmètre, statut et URL. Les événements déjà saisis dans « Veille » sont présentés dans la chronologie de la fiche lorsqu'ils sont liés à cette entreprise. Les nouvelles informations sont incluses dans les exports/imports JSON. Cette version ne recherche pas automatiquement sur Internet.
+
+Pour mettre à jour GitHub Pages : remplacez les fichiers du dépôt par ceux contenus dans ce ZIP, en conservant `index.html` à la racine. Ne téléversez pas le ZIP lui-même.
