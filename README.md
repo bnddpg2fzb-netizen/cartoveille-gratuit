@@ -26,3 +26,12 @@ Cette édition ne collecte pas automatiquement la presse, ne synchronise pas les
 Dans « Entreprises », créez d'abord la fiche d'un concurrent. Dans « Fiches concurrents », ajoutez ensuite des données financières, commerciales, industrielles et de gouvernance, avec leur source, date, périmètre, statut et URL. Les événements déjà saisis dans « Veille » sont présentés dans la chronologie de la fiche lorsqu'ils sont liés à cette entreprise. Les nouvelles informations sont incluses dans les exports/imports JSON. Cette version ne recherche pas automatiquement sur Internet.
 
 Pour mettre à jour GitHub Pages : remplacez les fichiers du dépôt par ceux contenus dans ce ZIP, en conservant `index.html` à la racine. Ne téléversez pas le ZIP lui-même.
+
+
+## Carte interactive et fiches concurrents (mise à jour)
+- Onglet Géographie : carte de France Leaflet/OpenStreetMap, filtre région, repères cliquables et ouverture directe des fiches concurrents.
+- Onglet Entreprises : ajouter une entreprise et, si nécessaire, plusieurs établissements avec leurs coordonnées GPS.
+- Onglet Fiches concurrents : informations financières, commerciales, industrielles et historique des sources pour chaque entreprise ; implantations rattachées.
+- Les repères n'apparaissent que si des coordonnées GPS valides ont été saisies. Aucune position ni information concurrentielle n'est inventée.
+- Fond de carte Leaflet et tuiles OpenStreetMap : connexion Internet requise. La version GitHub Pages reste gratuite et les données sont stockées localement sur chaque appareil.
+- Mettre à jour GitHub Pages en remplaçant les fichiers existants à la racine du dépôt ; conserver une sauvegarde JSON avant la mise à jour.

@@ -2,3 +2,11 @@
 
 /* Fiches concurrents */
 details.entry{margin:12px 0;padding:16px}details.entry summary{cursor:pointer;line-height:1.8;touch-action:manipulation}details.entry h4{color:#15584e;margin:22px 0 8px}details.entry .entry{background:#f8fbfa;border:1px solid #e1ece8;border-radius:10px;padding:12px;margin:8px 0}
+
+/* Carte France et fiches concurrents */
+#franceMap{height:480px;min-height:340px;border:1px solid #dbe8e8;border-radius:16px;margin:18px 0;z-index:0;background:#edf3f0}
+#mapStatus{padding:0 0 12px;font-size:13px}
+.geo-entry{cursor:pointer;border-left:3px solid transparent}
+.geo-entry:hover{border-left-color:#178f81}
+.fiche-open{background:#f0f8f6;border:1px solid #b8ddd1;border-radius:12px;padding:14px;margin:12px 0}
+@media(max-width:640px){#franceMap{height:55dvh;min-height:320px}.leaflet-popup-content{max-width:230px}}
